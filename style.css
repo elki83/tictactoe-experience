@@ -1,0 +1,378 @@
+/* First Part: Focus on Mainpage (Entrance) */
+
+.background-entrance {
+  background-image: url(https://i.ibb.co/Mc66pTD/backgrounmaindoor.jpg);
+}
+
+.welcome {
+  font-family: "Skranji", cursive;
+  color: red;
+  font-size: 600%;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+  margin: 10px 10px 80px;
+  padding: 2px;
+}
+
+table {
+  width: 210px;
+  height: 210px;
+}
+
+table,
+td {
+  border: 4px solid red;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+}
+
+.xo td a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+td a:hover {
+  color: red;
+  text-shadow: 5px 5px 5px white;
+  font-weight: bolder;
+  font-size: 190%;
+}
+
+.h5whiteblackshadow {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: larger;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  margin: 70px 10px 1px;
+}
+
+.h5blackredshadow {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: larger;
+  text-shadow: 3px 3px 3px red;
+  margin: 2px;
+  padding: 2px;
+}
+
+.ttt-exp {
+  font-family: "Skranji", cursive;
+  color: red;
+  font-size: 290%;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  margin: 25px;
+}
+
+.click {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+  margin: 3px;
+}
+
+/*CSS-Styling for many pages */
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+
+.nav {
+  font-family: "Skranji", cursive;
+  padding: 5px;
+  position: fixed;
+  top: 10px;
+  right: 1px;
+  left: 1px;
+  text-align: right;
+  border-radius: 6px;
+}
+
+.nav a {
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 0;
+}
+
+.nav a:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+.title {
+  font-family: "Skranji", cursive;
+  font-size: xx-large;
+  margin: 10px 10px 30px;
+  padding: 2px;
+}
+
+.read-button {
+  font-family: "Skranji", cursive;
+  font-size: 18px;
+  margin: 10px 10px 500px 20px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.read-button li a {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.storybegins {
+  font-family: "Open Sans", sans-serif;
+  margin: 3px;
+}
+
+.readingbox {
+  font-family: "Open Sans", sans-serif;
+  font-size: medium;
+
+  width: 520px;
+  height: auto;
+
+  padding: 10px;
+  margin: 25px;
+  border-radius: 9px;
+
+  object-fit: contain;
+}
+
+/* Specific CSS Styling */
+
+.terror-bg {
+  background-image: url(https://i.ibb.co/zJbthk6/bluefloor.jpg);
+}
+
+.lake-bg {
+  background-image: url(https://i.ibb.co/qC3DFyv/lake.jpg);
+}
+
+.fabric-bg {
+  background-image: url(https://wallpapercave.com/wp/wp2932677.jpg);
+}
+
+.forest-bg {
+  background-image: url(https://wallpapercave.com/wp/wp2950985.jpg);
+}
+
+.gate-bg {
+  background-image: url(https://i.ibb.co/xzw8Z5k/gate.jpg);
+}
+
+.memory-bg {
+  background-image: url(https://images.unsplash.com/photo-1516614379323-3fc1b4061247?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+}
+
+/* Nav */
+
+.terror-nav a {
+  color: white;
+}
+
+.lake-nav a {
+  color: rgba(137, 177, 212, 0.811);
+}
+
+.fabric-nav a {
+  color: lightgray;
+}
+
+.forest-nav a {
+  color: darkslategray;
+}
+
+.gate-nav a {
+  color: orange;
+}
+
+.memory-nav a {
+  color: dimgray;
+}
+
+/* h1-titles */
+
+.terror-title {
+  color: white;
+  text-shadow: 1px 1px 1px cadetblue;
+}
+
+.lake-title {
+  color: rgba(137, 177, 212, 0.811);
+  text-shadow: 1px 1px 1px white;
+}
+
+.fabric-title {
+  color: rgba(47, 32, 14, 0.271);
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.forest-title {
+  color: darkslategray;
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.gate-title {
+  color: orange;
+  border: 3px solid black;
+}
+
+.memory-title {
+  color: dimgray;
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+
+/* Button */
+
+.terror-read-button li a {
+  border: 1px solid aqua;
+  color: aqua;
+}
+
+.terror-read-button li a:hover {
+  color: slateblue;
+  border: 1px solid slateblue;
+}
+
+.lake-read-button li a {
+  border: 1px solid lightgray;
+  color: lightgray;
+}
+
+.lake-read-button li a:hover {
+  color: darkblue;
+  border: 1px solid darkblue;
+}
+
+.fabric-read-button li a {
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.fabric-read-button li a:hover {
+  color: rosybrown;
+  border: 1px solid rosybrown;
+}
+
+.forest-read-button li a {
+  border: 1px solid lightgray;
+  color: lightgray;
+}
+
+.forest-read-button li a:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.gate-read-button li a {
+  border: 1px solid indianred;
+  color: indianred;
+}
+
+.gate-read-button li a:hover {
+  color: cornsilk;
+  border: 1px solid cornsilk;
+}
+
+.memory-read-button li a {
+  border: 1px solid rosybrown;
+  color: rosybrown;
+}
+
+.memory-read-button li a:hover {
+  color: maroon;
+  border: 1px solid maroon;
+}
+
+/* storystart */
+
+.terror-storybegins {
+  color: cadetblue;
+}
+
+.lake-storybegins {
+  color: darkblue;
+}
+
+.fabric-storybegins {
+  color: whitesmoke;
+}
+
+.forest-storybegins {
+  color: gray;
+}
+
+.gate-storybegins {
+  color: indianred;
+}
+
+.memory-storybegins {
+  color: white;
+}
+
+/* Readingbox */
+
+.terror-readingbox {
+  background-color: black;
+  color: lightblue;
+  box-shadow: white 0px 5px 15px;
+}
+
+.lake-readingbox {
+  background-color: rgba(216, 237, 255, 0.962);
+  opacity: 0.75;
+  color: midnightblue;
+  box-shadow: white 0px 5px 15px;
+}
+
+.fabric-readingbox {
+  background-color: rgba(255, 255, 253, 0.993);
+  opacity: 0.7;
+  box-shadow: white 0px 5px 15px;
+}
+
+.forest-readingbox {
+  background-color: lightgray;
+  opacity: 0.65;
+}
+
+.gate-readingbox {
+  color: cornsilk;
+  border: 1px dotted cornsilk;
+}
+
+.memory-readingbox {
+  background-color: linen;
+  opacity: 0.75;
+  color: darkslategray;
+  box-shadow: whitesmoke 0px 5px 15px;
+}
+
+.trickyreadingbox {
+  box-shadow: darkslategray 0px 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 3000px;
+}
+.trickypicturebox {
+  box-shadow: darkslategray 0px 5px 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* iframe-problem-solving-try */
+
+.noinlineformyuu {
+  display: none;
+}
